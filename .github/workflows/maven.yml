@@ -58,7 +58,7 @@ jobs:
       run: docker pull muruga03/mail-buddy:latest
       
     - name: Delete Old Container
-      run: docker rm -f mail-buddy-container || true
+      run: docker rm -f mail-buddy-container
       
     - name: Run Docker Container
       run: docker run -d -p 8080:8080 --name mail-buddy-container muruga03/mail-buddy:latest
