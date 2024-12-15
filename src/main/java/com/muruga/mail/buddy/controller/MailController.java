@@ -30,7 +30,8 @@ public class MailController {
 	@GetMapping("/info")
 	public ResponseEntity<?> getSenderMail() {
 		Map<String, String> content=new HashMap<String, String>();
-		content.put("Email", "muruganandham.eangovan@gmail.com");
+		content.put("Email", "saranmuruga437@gmail.com");
+		content.put("Name", "Muruganandham");
 		return ResponseEntity.ok(content);
 	}
 
