@@ -32,6 +32,7 @@ public class MailController {
 		Map<String, String> content=new HashMap<String, String>();
 		content.put("Email", "saranmuruga437@gmail.com");
 		content.put("Name", "Saran Muruganandham");
+		content.put("Rolel", "Developer");
 		return ResponseEntity.ok(content);
 	}
 
