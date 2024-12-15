@@ -53,10 +53,6 @@ jobs:
   deploy:
     needs: build
     runs-on: [aws-ec2]
-    services:
-      docker:
-        image: docker:latest
-        options: --privileged
     steps:
     - name: Pull Image from Docker Hub
       run: docker pull muruga03/mail-buddy:latest
