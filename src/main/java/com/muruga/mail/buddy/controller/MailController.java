@@ -1,5 +1,8 @@
 package com.muruga.mail.buddy.controller;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,8 +28,10 @@ public class MailController {
 	}
 	
 	@GetMapping("/info")
-	public ResponseEntity<String> getSenderMail() {
-		return ResponseEntity.ok("saranmuruga437@gmail.com");
+	public ResponseEntity<?> getSenderMail() {
+		Map<String, String> content=new HashMap<String, String>();
+		content.put("Email", "saranmuruga437@gmail.com");
+		return ResponseEntity.ok(content);
 	}
 
 }
