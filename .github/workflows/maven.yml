@@ -52,7 +52,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: [ip-172-31-0-83]
     steps:
     - name: Pull Image from Docker Hub
       run: docker pull muruga03/mail-buddy:latest
