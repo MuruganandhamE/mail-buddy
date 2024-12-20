@@ -107,3 +107,283 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-12-20T20:26:48.723+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
 2024-12-20T20:26:48.788+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
 2024-12-20T20:26:48.805+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
+2024-12-20T20:36:46.837+05:30  INFO 13612 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 13612 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:36:46.846+05:30  INFO 13612 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:36:50.365+05:30  INFO 13612 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:36:50.400+05:30  INFO 13612 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:36:50.401+05:30  INFO 13612 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:36:50.533+05:30  INFO 13612 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:36:50.533+05:30  INFO 13612 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3575 ms
+2024-12-20T20:36:54.784+05:30  INFO 13612 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:36:54.800+05:30  INFO 13612 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 8.838 seconds (process running for 9.316)
+2024-12-20T20:37:18.969+05:30  INFO 13612 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:37:18.970+05:30  INFO 13612 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:37:18.984+05:30  INFO 13612 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-20T20:37:53.300+05:30  INFO 13612 --- [mail-buddy] [http-nio-8080-exec-3] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
+2024-12-20T20:37:53.333+05:30  INFO 13612 --- [mail-buddy] [http-nio-8080-exec-3] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
+2024-12-20T20:39:54.780+05:30  INFO 7404 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 7404 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:39:54.784+05:30  INFO 7404 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:39:56.661+05:30  INFO 7404 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:39:56.687+05:30  INFO 7404 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:39:56.687+05:30  INFO 7404 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:39:56.773+05:30  INFO 7404 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:39:56.775+05:30  INFO 7404 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1909 ms
+2024-12-20T20:39:58.430+05:30  INFO 7404 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:39:58.445+05:30  INFO 7404 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.268 seconds (process running for 4.741)
+2024-12-20T20:40:11.148+05:30  INFO 7404 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:40:11.149+05:30  INFO 7404 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:40:11.157+05:30  INFO 7404 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-20T20:40:50.443+05:30  INFO 10004 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 10004 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:40:50.447+05:30  INFO 10004 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:40:52.238+05:30  INFO 10004 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:40:52.254+05:30  INFO 10004 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:40:52.254+05:30  INFO 10004 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:40:52.323+05:30  INFO 10004 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:40:52.324+05:30  INFO 10004 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1799 ms
+2024-12-20T20:40:53.787+05:30  INFO 10004 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:40:53.800+05:30  INFO 10004 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.045 seconds (process running for 4.664)
+2024-12-20T20:40:57.810+05:30  INFO 10004 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:40:57.812+05:30  INFO 10004 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:40:57.818+05:30  INFO 10004 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-20T20:48:04.313+05:30  INFO 19120 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 19120 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:48:04.317+05:30  INFO 19120 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:48:06.360+05:30  INFO 19120 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:48:06.383+05:30  INFO 19120 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:48:06.384+05:30  INFO 19120 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:48:06.454+05:30  INFO 19120 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:48:06.455+05:30  INFO 19120 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2035 ms
+2024-12-20T20:48:08.267+05:30  INFO 19120 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:48:08.294+05:30  INFO 19120 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.598 seconds (process running for 5.061)
+2024-12-20T20:48:14.256+05:30  INFO 19120 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:48:14.256+05:30  INFO 19120 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:48:14.266+05:30  INFO 19120 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-20T20:48:14.361+05:30  INFO 19120 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
+2024-12-20T20:48:14.372+05:30  INFO 19120 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
+2024-12-20T20:51:23.485+05:30  INFO 11084 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 11084 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:51:23.488+05:30  INFO 11084 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:51:25.749+05:30  INFO 11084 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:51:25.775+05:30  INFO 11084 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:51:25.776+05:30  INFO 11084 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:51:25.874+05:30  INFO 11084 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:51:25.876+05:30  INFO 11084 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2291 ms
+2024-12-20T20:51:27.411+05:30  INFO 11084 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:51:27.426+05:30  INFO 11084 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.599 seconds (process running for 5.228)
+2024-12-20T20:51:39.234+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:51:39.235+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:51:39.239+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-20T20:51:41.579+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 467 ms
+2024-12-20T20:51:57.102+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
+2024-12-20T20:51:57.104+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
+2024-12-20T21:02:06.960+05:30  INFO 11084 --- [mail-buddy] [http-nio-8080-exec-6] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: [MailRequest(recipient=bujji3397@gmail.com, subject=Personal Msg, body=How are bujji, attachment=null)]
+2024-12-20T21:02:07.422+05:30 ERROR 11084 --- [mail-buddy] [http-nio-8080-exec-6] c.m.mail.buddy.aspect.LoggingAspect      : Exception: null
+2024-12-20T21:02:07.426+05:30 ERROR 11084 --- [mail-buddy] [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at java.base/java.io.File.<init>(File.java:278) ~[na:na]
+	at com.muruga.mail.buddy.service.EmailService.sendEmail(EmailService.java:40) ~[classes/:na]
+	at com.muruga.mail.buddy.controller.MailController.sendMail(MailController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.0.jar:6.2.0]
+	at com.muruga.mail.buddy.controller.MailController$$SpringCGLIB$$0.sendMail(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-20T21:05:43.432+05:30  INFO 19180 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 19180 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T21:05:43.435+05:30  INFO 19180 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T21:05:45.484+05:30  INFO 19180 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T21:05:45.518+05:30  INFO 19180 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T21:05:45.519+05:30  INFO 19180 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T21:05:45.619+05:30  INFO 19180 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T21:05:45.620+05:30  INFO 19180 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2108 ms
+2024-12-20T21:05:47.006+05:30  INFO 19180 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T21:05:47.027+05:30  INFO 19180 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.23 seconds (process running for 4.725)
+2024-12-20T21:06:21.021+05:30  INFO 19180 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T21:06:21.021+05:30  INFO 19180 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T21:06:21.028+05:30  INFO 19180 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-20T21:06:21.195+05:30  INFO 19180 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: [MailRequest(recipient=bujji3397@gmail.com, subject=Personal Msg, body=How are bujji, attachment=null)]
+2024-12-20T21:06:21.748+05:30 ERROR 19180 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Exception: null
+2024-12-20T21:06:21.754+05:30 ERROR 19180 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at java.base/java.io.File.<init>(File.java:278) ~[na:na]
+	at com.muruga.mail.buddy.service.EmailService.sendEmail(EmailService.java:40) ~[classes/:na]
+	at com.muruga.mail.buddy.controller.MailController.sendMail(MailController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.0.jar:6.2.0]
+	at com.muruga.mail.buddy.controller.MailController$$SpringCGLIB$$0.sendMail(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.33.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.0.jar:6.2.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.33.jar:10.1.33]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-20T21:06:47.239+05:30  INFO 17196 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 17196 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T21:06:47.244+05:30  INFO 17196 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T21:06:49.179+05:30  INFO 17196 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T21:06:49.201+05:30  INFO 17196 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T21:06:49.201+05:30  INFO 17196 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T21:06:49.270+05:30  INFO 17196 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T21:06:49.271+05:30  INFO 17196 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1959 ms
+2024-12-20T21:06:50.805+05:30  INFO 17196 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T21:06:50.821+05:30  INFO 17196 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.169 seconds (process running for 4.642)
+2024-12-20T21:07:15.850+05:30  INFO 17196 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T21:07:15.850+05:30  INFO 17196 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T21:07:15.852+05:30  INFO 17196 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-20T21:07:15.990+05:30  INFO 17196 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: [MailRequest(recipient=bujji3397@gmail.com, subject=Personal Msg, body=How are bujji, attachment=null)]
+2024-12-20T21:07:16.507+05:30  INFO 17196 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: null
+2024-12-20T21:18:51.474+05:30  INFO 8012 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 8012 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T21:18:51.479+05:30  INFO 8012 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T21:18:53.657+05:30  INFO 8012 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T21:18:53.693+05:30  INFO 8012 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T21:18:53.694+05:30  INFO 8012 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T21:18:53.818+05:30  INFO 8012 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T21:18:53.819+05:30  INFO 8012 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2270 ms
+2024-12-20T21:18:55.432+05:30  INFO 8012 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T21:18:55.447+05:30  INFO 8012 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.624 seconds (process running for 5.232)
+2024-12-20T21:19:10.903+05:30  INFO 8012 --- [mail-buddy] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T21:19:10.903+05:30  INFO 8012 --- [mail-buddy] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T21:19:10.909+05:30  INFO 8012 --- [mail-buddy] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-12-20T21:19:11.080+05:30  INFO 8012 --- [mail-buddy] [http-nio-8080-exec-2] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: [MailRequest(recipient=bujji3397@gmail.com, subject=Personal Msg, body=How are bujji, attachment=null)]
+2024-12-20T21:19:11.513+05:30  INFO 8012 --- [mail-buddy] [http-nio-8080-exec-2] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: null
+2024-12-20T21:20:57.549+05:30  INFO 18372 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 18372 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T21:20:57.552+05:30  INFO 18372 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T21:20:59.504+05:30  INFO 18372 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T21:20:59.529+05:30  INFO 18372 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T21:20:59.530+05:30  INFO 18372 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T21:20:59.615+05:30  INFO 18372 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T21:20:59.616+05:30  INFO 18372 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1994 ms
+2024-12-20T21:21:00.935+05:30  INFO 18372 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T21:21:00.955+05:30  INFO 18372 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.084 seconds (process running for 4.663)
+2024-12-20T21:21:15.688+05:30  INFO 18372 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T21:21:15.689+05:30  INFO 18372 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T21:21:15.694+05:30  INFO 18372 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-20T21:21:15.883+05:30  INFO 18372 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: [MailRequest(recipient=bujji3397@gmail.com, subject=Personal Msg, body=How are bujji, attachment=null)]
+2024-12-20T21:21:16.425+05:30  INFO 18372 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: null
+2024-12-20T21:22:35.719+05:30  INFO 16228 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 16228 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T21:22:35.723+05:30  INFO 16228 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T21:22:37.655+05:30  INFO 16228 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T21:22:37.677+05:30  INFO 16228 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T21:22:37.678+05:30  INFO 16228 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T21:22:37.765+05:30  INFO 16228 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T21:22:37.766+05:30  INFO 16228 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1963 ms
+2024-12-20T21:22:39.271+05:30  INFO 16228 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T21:22:39.286+05:30  INFO 16228 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 4.153 seconds (process running for 4.682)
