@@ -14,8 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.muruga.mail.buddy.model.request.MailRequest;
 import com.muruga.mail.buddy.service.EmailService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("/api/send-mail")
+@Slf4j
 public class MailController {
 	
 	

@@ -57,6 +57,11 @@
 			<optional>true</optional>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
 
 	</dependencies>
 
@@ -68,6 +73,6 @@
 			</plugin>
 		</plugins>
 		<finalName>mail-buddy</finalName>
-			</build>
+	</build>
 
 </project>

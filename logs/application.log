@@ -1,0 +1,109 @@
+2024-12-20T20:04:42.932+05:30  INFO 904 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 904 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:04:42.937+05:30  INFO 904 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:04:44.788+05:30  INFO 904 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:04:44.808+05:30  INFO 904 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:04:44.808+05:30  INFO 904 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:04:44.911+05:30  INFO 904 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:04:44.912+05:30  INFO 904 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1845 ms
+2024-12-20T20:04:45.713+05:30  INFO 904 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:04:45.732+05:30  INFO 904 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 3.476 seconds (process running for 3.915)
+2024-12-20T20:06:24.101+05:30  INFO 904 --- [mail-buddy] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:06:24.102+05:30  INFO 904 --- [mail-buddy] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:06:24.103+05:30  INFO 904 --- [mail-buddy] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-20T20:08:52.015+05:30  INFO 18284 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 18284 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:08:52.021+05:30  INFO 18284 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:08:53.434+05:30  INFO 18284 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:08:53.462+05:30  INFO 18284 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:08:53.464+05:30  INFO 18284 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:08:53.613+05:30  INFO 18284 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:08:53.615+05:30  INFO 18284 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
+2024-12-20T20:08:54.234+05:30  INFO 18284 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:08:54.248+05:30  INFO 18284 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 2.852 seconds (process running for 3.341)
+2024-12-20T20:09:08.311+05:30  INFO 18284 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:09:08.311+05:30  INFO 18284 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:09:08.313+05:30  INFO 18284 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-20T20:09:08.357+05:30  INFO 18284 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Started
+2024-12-20T20:09:08.357+05:30  INFO 18284 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Ended
+2024-12-20T20:20:54.361+05:30  INFO 1088 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 1088 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:20:54.368+05:30  INFO 1088 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:20:56.078+05:30  INFO 1088 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:20:56.098+05:30  INFO 1088 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:20:56.098+05:30  INFO 1088 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:20:56.166+05:30  INFO 1088 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:20:56.167+05:30  INFO 1088 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1717 ms
+2024-12-20T20:20:56.886+05:30  INFO 1088 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:20:56.900+05:30  INFO 1088 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 3.323 seconds (process running for 3.836)
+2024-12-20T20:21:13.064+05:30  INFO 1088 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:21:13.065+05:30  INFO 1088 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:21:13.077+05:30  INFO 1088 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2024-12-20T20:21:13.129+05:30  INFO 1088 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Started
+2024-12-20T20:21:13.129+05:30  INFO 1088 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Ended
+2024-12-20T20:21:44.541+05:30  INFO 4192 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 4192 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:21:44.547+05:30  INFO 4192 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:21:46.125+05:30  INFO 4192 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:21:46.140+05:30  INFO 4192 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:21:46.141+05:30  INFO 4192 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:21:46.198+05:30  INFO 4192 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:21:46.198+05:30  INFO 4192 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1575 ms
+2024-12-20T20:21:46.771+05:30  WARN 4192 --- [mail-buddy] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-20T20:21:46.801+05:30  INFO 4192 --- [mail-buddy] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-20T20:21:46.833+05:30 ERROR 4192 --- [mail-buddy] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-20T20:21:58.206+05:30  INFO 1760 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 1760 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:21:58.215+05:30  INFO 1760 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:21:59.596+05:30  INFO 1760 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:21:59.612+05:30  INFO 1760 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:21:59.613+05:30  INFO 1760 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:21:59.687+05:30  INFO 1760 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:21:59.688+05:30  INFO 1760 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1395 ms
+2024-12-20T20:22:00.352+05:30  INFO 1760 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:22:00.365+05:30  INFO 1760 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 2.805 seconds (process running for 3.316)
+2024-12-20T20:25:16.628+05:30  INFO 1760 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:25:16.628+05:30  INFO 1760 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:25:16.633+05:30  INFO 1760 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-20T20:25:16.686+05:30  INFO 1760 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Started
+2024-12-20T20:25:16.686+05:30  INFO 1760 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Ended
+2024-12-20T20:25:58.497+05:30  INFO 7800 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 7800 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:25:58.501+05:30  INFO 7800 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:26:00.332+05:30  INFO 7800 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:26:00.358+05:30  INFO 7800 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:26:00.359+05:30  INFO 7800 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:26:00.449+05:30  INFO 7800 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:26:00.452+05:30  INFO 7800 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1870 ms
+2024-12-20T20:26:01.426+05:30  INFO 7800 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:26:01.440+05:30  INFO 7800 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 3.554 seconds (process running for 4.097)
+2024-12-20T20:26:10.000+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:26:10.001+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:26:10.007+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-20T20:26:10.068+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
+2024-12-20T20:26:10.070+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Started
+2024-12-20T20:26:10.071+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] c.m.m.buddy.controller.MailController    : getSenderMail Mtd Ended
+2024-12-20T20:26:10.087+05:30  INFO 7800 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
+2024-12-20T20:26:38.325+05:30  INFO 11936 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Starting MailBuddyApplication using Java 21.0.5 with PID 11936 (D:\My-workspace\mail-buddy\target\classes started by admin in D:\My-workspace\mail-buddy)
+2024-12-20T20:26:38.330+05:30  INFO 11936 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-12-20T20:26:40.035+05:30  INFO 11936 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-20T20:26:40.054+05:30  INFO 11936 --- [mail-buddy] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-20T20:26:40.054+05:30  INFO 11936 --- [mail-buddy] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-20T20:26:40.132+05:30  INFO 11936 --- [mail-buddy] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-20T20:26:40.133+05:30  INFO 11936 --- [mail-buddy] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1735 ms
+2024-12-20T20:26:41.143+05:30  INFO 11936 --- [mail-buddy] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-20T20:26:41.158+05:30  INFO 11936 --- [mail-buddy] [main] c.m.mail.buddy.MailBuddyApplication      : Started MailBuddyApplication in 3.548 seconds (process running for 4.074)
+2024-12-20T20:26:48.713+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-20T20:26:48.715+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-20T20:26:48.723+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-20T20:26:48.788+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Request Payload: []
+2024-12-20T20:26:48.805+05:30  INFO 11936 --- [mail-buddy] [http-nio-8080-exec-1] c.m.mail.buddy.aspect.LoggingAspect      : Response Payload: <200 OK OK,{Rolel=Developer, Email=saranmuruga437@gmail.com, Name=Saran Muruganandham},[]>
